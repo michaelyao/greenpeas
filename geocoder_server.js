@@ -76,6 +76,6 @@ function unknownMethodHandler(req, res) {
 
 server.on('MethodNotAllowed', unknownMethodHandler);
 
-server.listen(8087, function() {
+server.listen(80, function() {
   logger.info(server.name + ' listening at ' + server.url + ', love & peace');
 });
