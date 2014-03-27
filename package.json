@@ -1,0 +1,29 @@
+{
+  "name": "geocoder-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "geocoder_server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelyao/greenpeas.git"
+  },
+  "keywords": [
+    "greenpeas"
+  ],
+  "author": "myao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nchaulet/greenpeas/issues"
+  },
+  "dependencies": {
+    "q": "~1.0.1",
+    "restify" : "*",
+    "bunyan" : "*",
+    "winston" : "*"
+  },
+  "devDependencies": {
+    "chai": "~1.8",
+    "mocha": "~1.14",
+    "sinon": "~1.7"
+  }
+}
